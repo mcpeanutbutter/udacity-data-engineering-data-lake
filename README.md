@@ -20,3 +20,8 @@ Unfortunately, the environment that was provided kept throwing 403 errors when t
 There are two relevant functions in `etl.py`, `process_song_data()` and `process_log_data()`. These functions perform operations that were done with SQL queries in previous exercises:
 * Extract song and artist information from song data
 * Extract user, time and songplay information from log data. The latter requires a join with song_data in order to make the fields `song_id` and `artist_id` available in the songplay data.
+
+## Attributions
+The following solutions were used as guidance:
+* **[bondxue](https://github.com/bondxue/Data-Lake-with-Spark)**
+* **[jonathankamau](https://github.com/jonathankamau/udacity-data-lake-project)**
